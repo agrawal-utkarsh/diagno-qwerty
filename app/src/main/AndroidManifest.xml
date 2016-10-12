@@ -26,6 +26,10 @@
         <activity android:name=".DisplayListView3" />
         <activity android:name=".Addinfo_history" />
         <activity android:name=".DisplayListView" />
+        <activity
+            android:name=".patient"
+            android:label="@string/title_activity_bc"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
