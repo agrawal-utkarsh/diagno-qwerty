@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="75dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
 
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:id="@+id/tx_adhar"
-        android:layout_alignParentLeft="true"
         android:text="DIAGNO"
         android:gravity="center"
         android:textAppearance="?android:textAppearanceLarge"
  />
 
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:id="@+id/tx_name"
-      android:layout_toRightOf="@+id/tx_adhar"
         android:text="DIAGNO"
         android:gravity="center"
         android:textAppearance="?android:textAppearanceLarge"
     />
 
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:id="@+id/tx_age"
-        android:layout_toRightOf="@+id/tx_name"
         android:text="DIAGNO"
 
         android:gravity="center"
@@ -34,10 +34,9 @@
         android:textAppearance="?android:textAppearanceLarge"
         />
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:id="@+id/tx_residence"
-        android:layout_toRightOf="@+id/tx_age"
         android:text="DIAGNO"
 
         android:gravity="center"
@@ -45,10 +44,9 @@
         android:textAppearance="?android:textAppearanceLarge"
         />
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:id="@+id/tx_gender"
-        android:layout_toRightOf="@+id/tx_residence"
         android:text="DIAGNO"
 
         android:gravity="center"
@@ -56,10 +54,9 @@
         android:textAppearance="?android:textAppearanceLarge"
         />
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:id="@+id/tx_profile"
-        android:layout_toRightOf="@+id/tx_gender"
         android:text="DIAGNO"
 
         android:gravity="center"
@@ -68,4 +65,4 @@
         />
 
 
-</RelativeLayout>
+</LinearLayout>

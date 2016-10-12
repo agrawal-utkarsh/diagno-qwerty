@@ -1,94 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="75dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:orientation="vertical">
 
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/tx_adhar"
-        android:layout_alignParentLeft="true"
         android:text="DIAGNO"
         android:gravity="center"
         android:textAppearance="?android:textAppearanceLarge"
  />
 
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/tx_date"
-      android:layout_toRightOf="@+id/tx_adhar"
         android:text="DIAGNO"
         android:gravity="center"
         android:textAppearance="?android:textAppearanceLarge"
     />
 
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/tx_hosname"
-        android:layout_toRightOf="@+id/tx_date"
         android:text="DIAGNO"
-
         android:gravity="center"
-
         android:textAppearance="?android:textAppearanceLarge"
         />
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/tx_hosid"
-        android:layout_toRightOf="@+id/tx_hosname"
         android:text="DIAGNO"
-
         android:gravity="center"
-
         android:textAppearance="?android:textAppearanceLarge"
         />
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/tx_docname"
-        android:layout_toRightOf="@+id/tx_hosid"
         android:text="DIAGNO"
-
         android:gravity="center"
-
         android:textAppearance="?android:textAppearanceLarge"
         />
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/tx_dise"
-        android:layout_toRightOf="@+id/tx_docname"
         android:text="DIAGNO"
-
         android:gravity="center"
-
         android:textAppearance="?android:textAppearanceLarge"
         />
 
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/tx_spec"
-        android:layout_toRightOf="@+id/tx_dise"
         android:text="DIAGNO"
-
         android:gravity="center"
-
         android:textAppearance="?android:textAppearanceLarge"
         />
     <TextView
-        android:layout_height="match_parent"
-        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/tx_medi"
-        android:layout_toRightOf="@+id/tx_spec"
         android:text="DIAGNO"
-
         android:gravity="center"
-
         android:textAppearance="?android:textAppearanceLarge"
         />
 
 
-</RelativeLayout>
+</LinearLayout>
